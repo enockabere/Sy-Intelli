@@ -9,21 +9,39 @@ body{
   height: 100px;
 }
 .logo{
-  height: 80px;
-  width: 15%;
+  height: 70px;
+  width: 5%;
   float:left;
   border-radius: 50%;
   margin:10px;
 }
 /*home button image style*/
 .log{
-  height: 80px;
-  width: 15%;
+  height: 70px;
+  width: 5%;
   float:right;
   border-radius: 4px;
   padding: 5px;
    border: 1px solid #2a64ae;
   margin:10px;
+}
+@media (max-width:767px) {
+  .log {
+    height: 40px;
+    width: 40px;
+    float:right;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid #2a64ae;
+    margin:10px;
+  }
+  .logo{
+    height: 40px;
+    width: 40px;
+    float:left;
+    border-radius: 50%;
+    margin:10px;
+  }
 }
 /*----  Main Style  ----*/
 #cards_landscape_wrap-2{
